@@ -1,0 +1,36 @@
+//Hyperlink CSS code 
+a.one:link {color:#ff0000;}
+a.one:visited {color:#0000ff;}
+a.one:hover {color:#ffcc00;}
+	
+body {
+  background-color: Gray;
+}
+
+h1 {
+  color: Blue;
+  margin-left: 40px;
+} 
+
+.Hyperlink_Bar {
+  border-radius: 25px;
+  border: 1px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  background-color: #d0f0f6;
+  text-align: left;
+  padding: 8px;
+}
+
+.Web_Header {
+  border-radius: 25px;
+  border: 1px solid gray;
+  background-position: center top;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  background-color: #d0f0f6;
+  text-align: center;
+  padding: 8px;
+}
