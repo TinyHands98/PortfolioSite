@@ -1,12 +1,38 @@
 //Hyperlink CSS code 
-a.one:link {color:#ff0000;}
-a.one:visited {color:#0000ff;}
-a.one:hover {color:#ffcc00;}
-	
-body {
-  background-color: Gray;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
+li a {
+  display: block;
+  color: white;
+  text-align: top center;
+  padding: 0px 180px;
+  text-decoration: none;
+  left: 0; 
+  transition: 2.5s;
+}
+
+li a:hover {
+  background-image: url("
+  background-color: #111;
+  height: 200px; 
+  width: 200px;
+}
+
+li {
+  float: left;
+}
+
+body {
+  background-image: url("Background.jpg");
+}
+	
 h1 {
   color: Blue;
   margin-left: 40px;
@@ -17,20 +43,11 @@ h1 {
   background-color: #111;
   width: 1830px;
   margin-right: auto;
+  margin-left: auto;
   border: 5px solid green;
   padding: 30px;
   margin: 0px;
-}
-
-.Hyperlink_Bar {
-  border-radius: 25px;
-  border: 1px solid gray;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  background-color: #d0f0f6;
-  text-align: left;
-  padding: 8px;
+  position: sticky;
 }
 
 .Web_Header {
@@ -45,14 +62,27 @@ h1 {
   padding: 8px;
 }
 
-.Web_Footer {
+.Web_Body {
   border-radius: 25px;
   border: 1px solid gray;
-  background-position: center bottom;
+  background-position: center top;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
   background-color: #d0f0f6;
   text-align: center;
   padding: 8px;
+}
+
+.Web_Footer {
+  border: 1px solid gray;
+  position: sticky;
+  bottom 0;
+  left 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: #d0f0f6;
+  text-align: center;
+  padding: calc((var(--footer-height) - var(--footer-text-size)) / 2);
 }
