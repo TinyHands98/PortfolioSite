@@ -1,0 +1,279 @@
+<html>
+  <head>
+  
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="CssSheet.css">
+  </head>
+  
+    <body>
+	
+	<div id="background_image"></div>
+	
+	<div class="HeadBar">
+	  <ul id="navbar">
+		<li><a class="active" href="Homepage.html">Home</a></li>
+		<li><a href="Models.html">Models</a></li>
+		<li><a href="CV.html">CV</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+      </ul>
+	</div>
+	
+	<div class="Web_Header">
+		<h1>CV</h1>
+	</div>
+	
+	<div class="Web_Body">
+	<p>Down below you can find my CV</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p id="CV" style="display:none">Not quite there yet scroll down :) </p>
+	
+	<button type="button" onclick="document.getElementById('CV').style.display='block'">Click here <--</button>
+
+    <br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<p id="CV1" style="display:none">One more time</p>
+	
+	<button type="button" onclick="document.getElementById('CV1').style.display='block'; myFunction();">Click here <--</button>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<canvas id="canvas" style="background: blue"></canvas>
+	
+	
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p id="CV2" style="display:none"><a href="CV_KarlCoombes.pdf">Here you go! you've earned it</a></p>
+	
+	<button type="button" onclick="document.getElementById('CV2').style.display='block'; audio.play();">For real this time. <--</button>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	
+	</div>
+  
+	<footer>
+		<div class="Web_Footer">
+			<p> Karl Coombes, Bournemouth university, Games Design student</p>
+			<p> © Copyright Karl Coombes 2020 </p>
+		</div>
+	</footer>
+	
+	<script>
+   
+   function main()
+{
+alert("Welcome to my CV page here you can download my CV, I know this is annoying just want to show I can do it");
+}
+window.onload = main;
+
+var audio = new Audio("applause.wav" ) ;
+
+audio.oncanplaythrough = function(){
+audio.play();
+}
+
+audio.loop = false;
+
+audio.onended = function(){
+audio.play();
+}
+
+
+function myFunction() {
+
+  document.getElementById("CV1").style.color = "red";
+ 
+}
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "20px Arial";
+ctx.fillText("here's a canvas keep going", 10, 50);
+
+   </script>
+
+    </body>
+
+</html>
